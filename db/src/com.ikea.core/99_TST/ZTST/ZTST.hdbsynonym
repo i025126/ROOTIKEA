@@ -1,0 +1,14 @@
+{
+  "com.ikea.core::S_ZTSTPDS01": {
+    "target": {
+      "object": "system-local.bw.bw2hana/ZTSTPDS01",
+      "logical_schema": "ZCORE_SYS_BIC"
+    }
+  },
+  "com.ikea.core::S_ZTSTPDS02": {
+    "target": {
+      "object": "system-local.bw.bw2hana/ZTSTPDS02",
+      "logical_schema": "ZCORE_SYS_BIC"
+    }
+  }
+}

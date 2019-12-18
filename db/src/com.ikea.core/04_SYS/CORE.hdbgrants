@@ -1,0 +1,9 @@
+{
+	"DB1_ZCORE_SYS_BIC": {
+		"object_owner": {
+			"global_roles": [
+				"AUTH_ROLE_BW_SYS_BIC"
+			]
+		}
+	}
+}

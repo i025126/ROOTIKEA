@@ -1,0 +1,21 @@
+{
+  "SYS" : {
+    "target" : {
+      "schema" : "SYS"
+   }
+ },
+  "_SYS_BI" : {
+    "target" : {
+      "schema" : "_SYS_BI"
+   }
+ },
+  "SAP_ABAP" : {
+    "target" : {
+      "schema" : "SAPHANADB"
+   }
+ },
+  "ZCORE_SYS_BIC" : {
+    "target" : {
+      "schema" : "_SYS_BIC"
+   }
+}

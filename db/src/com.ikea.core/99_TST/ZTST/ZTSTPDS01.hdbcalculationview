@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="com.ikea.core::ZTSTPDS01" applyPrivilegeType="NONE" dataCategory="CUBE" schemaVersion="3.0" outputViewType="Aggregation" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="ZTSTPDS01"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="com.ikea.core::S_ZTSTPDS01">
+    <resourceUri>com.ikea.core::S_ZTSTPDS01</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:ProjectionView" id="S_ZTSTPDS01">
+    <viewAttributes>
+      <viewAttribute id="0ACCT_TYPE"/>
+      <viewAttribute id="0ACCT_TYPE___T"/>
+      <viewAttribute id="0AC_DOC_LN"/>
+      <viewAttribute id="0AC_DOC_NO"/>
+      <viewAttribute id="0AC_DOC_NR"/>
+      <viewAttribute id="0AC_DOC_TYP"/>
+      <viewAttribute id="0AC_DOC_TYP___T"/>
+      <viewAttribute id="0BUS_AREA"/>
+      <viewAttribute id="0BUS_AREA___T"/>
+      <viewAttribute id="0CALMONTH"/>
+      <viewAttribute id="0CALQUARTER"/>
+      <viewAttribute id="0CALYEAR"/>
+      <viewAttribute id="0CHRT_ACCTS"/>
+      <viewAttribute id="0CHRT_ACCTS___T"/>
+      <viewAttribute id="0CLEAR_DATE"/>
+      <viewAttribute id="0CLR_DOC_NO"/>
+      <viewAttribute id="0COMP_CODE"/>
+      <viewAttribute id="0COMP_CODE___T"/>
+      <viewAttribute id="0COSTCENTER"/>
+      <viewAttribute id="0COSTCENTER___T"/>
+      <viewAttribute id="0CO_AREA"/>
+      <viewAttribute id="0CO_AREA___T"/>
+      <viewAttribute id="0CREATEDON"/>
+      <viewAttribute id="0CREDIT_DC"/>
+      <viewAttribute id="0CREDIT_DC_CURRENCY"/>
+      <viewAttribute id="0CREDIT_LC"/>
+      <viewAttribute id="0CREDIT_LC_CURRENCY"/>
+      <viewAttribute id="0DEBIT_DC"/>
+      <viewAttribute id="0DEBIT_DC_CURRENCY"/>
+      <viewAttribute id="0DEBIT_LC"/>
+      <viewAttribute id="0DEBIT_LC_CURRENCY"/>
+      <viewAttribute id="0DEB_CRE_DC"/>
+      <viewAttribute id="0DEB_CRE_DC_CURRENCY"/>
+      <viewAttribute id="0DEB_CRE_LC"/>
+      <viewAttribute id="0DEB_CRE_LC_CURRENCY"/>
+      <viewAttribute id="0DOC_CURRCY"/>
+      <viewAttribute id="0DOC_CURRCY___T"/>
+      <viewAttribute id="0FISCPER"/>
+      <viewAttribute id="0FISCPER3"/>
+      <viewAttribute id="0FISCVARNT"/>
+      <viewAttribute id="0FISCYEAR"/>
+      <viewAttribute id="0FI_DOCSTAT"/>
+      <viewAttribute id="0FI_DOCSTAT___T"/>
+      <viewAttribute id="0FUNC_AREA"/>
+      <viewAttribute id="0FUNC_AREA___T"/>
+      <viewAttribute id="0GL_ACCOUNT"/>
+      <viewAttribute id="0GL_ACCOUNT___T"/>
+      <viewAttribute id="0ITEM_NUM"/>
+      <viewAttribute id="0LOC_CURRCY"/>
+      <viewAttribute id="0LOC_CURRCY___T"/>
+      <viewAttribute id="0POST_KEY"/>
+      <viewAttribute id="0PROFIT_CTR"/>
+      <viewAttribute id="0PROFIT_CTR___T"/>
+      <viewAttribute id="0PSTNG_DATE"/>
+      <viewAttribute id="0REF_DOC_NO"/>
+      <viewAttribute id="0REQTSN"/>
+      <viewAttribute id="0SEGMENT"/>
+      <viewAttribute id="0SEGMENT___T"/>
+      <viewAttribute id="0SP_GL_IND"/>
+      <viewAttribute id="0SP_GL_IND___T"/>
+      <viewAttribute id="0VERSION"/>
+      <viewAttribute id="0VERSION___T"/>
+      <viewAttribute id="1ROWCOUNT"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="com.ikea.core::S_ZTSTPDS01">
+      <mapping xsi:type="Calculation:AttributeMapping" target="0ACCT_TYPE" source="0ACCT_TYPE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0ACCT_TYPE___T" source="0ACCT_TYPE___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0AC_DOC_LN" source="0AC_DOC_LN"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0AC_DOC_NO" source="0AC_DOC_NO"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0AC_DOC_NR" source="0AC_DOC_NR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0AC_DOC_TYP" source="0AC_DOC_TYP"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0AC_DOC_TYP___T" source="0AC_DOC_TYP___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0BUS_AREA" source="0BUS_AREA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0BUS_AREA___T" source="0BUS_AREA___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CALMONTH" source="0CALMONTH"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CALQUARTER" source="0CALQUARTER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CALYEAR" source="0CALYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CHRT_ACCTS" source="0CHRT_ACCTS"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CHRT_ACCTS___T" source="0CHRT_ACCTS___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CLEAR_DATE" source="0CLEAR_DATE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CLR_DOC_NO" source="0CLR_DOC_NO"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0COMP_CODE" source="0COMP_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0COMP_CODE___T" source="0COMP_CODE___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0COSTCENTER" source="0COSTCENTER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0COSTCENTER___T" source="0COSTCENTER___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CO_AREA" source="0CO_AREA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CO_AREA___T" source="0CO_AREA___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CREATEDON" source="0CREATEDON"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CREDIT_DC" source="0CREDIT_DC"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CREDIT_DC_CURRENCY" source="0CREDIT_DC.CURRENCY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CREDIT_LC" source="0CREDIT_LC"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0CREDIT_LC_CURRENCY" source="0CREDIT_LC.CURRENCY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0DEBIT_DC" source="0DEBIT_DC"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0DEBIT_DC_CURRENCY" source="0DEBIT_DC.CURRENCY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0DEBIT_LC" source="0DEBIT_LC"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0DEBIT_LC_CURRENCY" source="0DEBIT_LC.CURRENCY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0DEB_CRE_DC" source="0DEB_CRE_DC"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0DEB_CRE_DC_CURRENCY" source="0DEB_CRE_DC.CURRENCY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0DEB_CRE_LC" source="0DEB_CRE_LC"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0DEB_CRE_LC_CURRENCY" source="0DEB_CRE_LC.CURRENCY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0DOC_CURRCY" source="0DOC_CURRCY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0DOC_CURRCY___T" source="0DOC_CURRCY___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0FISCPER" source="0FISCPER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0FISCPER3" source="0FISCPER3"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0FISCVARNT" source="0FISCVARNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0FISCYEAR" source="0FISCYEAR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0FI_DOCSTAT" source="0FI_DOCSTAT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0FI_DOCSTAT___T" source="0FI_DOCSTAT___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0FUNC_AREA" source="0FUNC_AREA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0FUNC_AREA___T" source="0FUNC_AREA___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0GL_ACCOUNT" source="0GL_ACCOUNT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0GL_ACCOUNT___T" source="0GL_ACCOUNT___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0ITEM_NUM" source="0ITEM_NUM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0LOC_CURRCY" source="0LOC_CURRCY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0LOC_CURRCY___T" source="0LOC_CURRCY___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0POST_KEY" source="0POST_KEY"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0PROFIT_CTR" source="0PROFIT_CTR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0PROFIT_CTR___T" source="0PROFIT_CTR___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0PSTNG_DATE" source="0PSTNG_DATE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0REF_DOC_NO" source="0REF_DOC_NO"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0REQTSN" source="0REQTSN"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0SEGMENT" source="0SEGMENT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0SEGMENT___T" source="0SEGMENT___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0SP_GL_IND" source="0SP_GL_IND"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0SP_GL_IND___T" source="0SP_GL_IND___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0VERSION" source="0VERSION"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="0VERSION___T" source="0VERSION___T"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="1ROWCOUNT" source="1ROWCOUNT"/>
+    </input>
+  </calculationView>
+</calculationViews>
+<logicalModel id="S_ZTSTPDS01">
+  <attributes>
+    <attribute id="0ACCT_TYPE" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Account Type"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0ACCT_TYPE"/>
+    </attribute>
+    <attribute id="0ACCT_TYPE___T" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0ACCT_TYPE___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0ACCT_TYPE___T"/>
+    </attribute>
+    <attribute id="0AC_DOC_LN" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Line Item (General Ledger View)"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0AC_DOC_LN"/>
+    </attribute>
+    <attribute id="0AC_DOC_NO" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Accounting document number"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0AC_DOC_NO"/>
+    </attribute>
+    <attribute id="0AC_DOC_NR" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Document Number (General Ledger View)"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0AC_DOC_NR"/>
+    </attribute>
+    <attribute id="0AC_DOC_TYP" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Document type"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0AC_DOC_TYP"/>
+    </attribute>
+    <attribute id="0AC_DOC_TYP___T" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0AC_DOC_TYP___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0AC_DOC_TYP___T"/>
+    </attribute>
+    <attribute id="0BUS_AREA" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Business Area"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0BUS_AREA"/>
+    </attribute>
+    <attribute id="0BUS_AREA___T" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0BUS_AREA___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0BUS_AREA___T"/>
+    </attribute>
+    <attribute id="0CALMONTH" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Calendar Year/Month"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0CALMONTH"/>
+    </attribute>
+    <attribute id="0CALQUARTER" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Calendar Year/Quarter"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0CALQUARTER"/>
+    </attribute>
+    <attribute id="0CALYEAR" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Calendar Year"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0CALYEAR"/>
+    </attribute>
+    <attribute id="0CHRT_ACCTS" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Chart of Accounts"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0CHRT_ACCTS"/>
+    </attribute>
+    <attribute id="0CHRT_ACCTS___T" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0CHRT_ACCTS___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0CHRT_ACCTS___T"/>
+    </attribute>
+    <attribute id="0CLEAR_DATE" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Clearing date"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0CLEAR_DATE"/>
+    </attribute>
+    <attribute id="0CLR_DOC_NO" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Clearing Document Number"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0CLR_DOC_NO"/>
+    </attribute>
+    <attribute id="0COMP_CODE" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Company Code"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0COMP_CODE"/>
+    </attribute>
+    <attribute id="0COMP_CODE___T" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0COMP_CODE___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0COMP_CODE___T"/>
+    </attribute>
+    <attribute id="0COSTCENTER" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Cost Center"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0COSTCENTER"/>
+    </attribute>
+    <attribute id="0COSTCENTER___T" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0COSTCENTER___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0COSTCENTER___T"/>
+    </attribute>
+    <attribute id="0CO_AREA" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Controlling Area"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0CO_AREA"/>
+    </attribute>
+    <attribute id="0CO_AREA___T" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0CO_AREA___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0CO_AREA___T"/>
+    </attribute>
+    <attribute id="0CREATEDON" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Date on which the record was created"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0CREATEDON"/>
+    </attribute>
+    <attribute id="0CREDIT_DC_CURRENCY" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0CREDIT_DC_CURRENCY"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0CREDIT_DC_CURRENCY"/>
+    </attribute>
+    <attribute id="0CREDIT_LC_CURRENCY" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0CREDIT_LC_CURRENCY"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0CREDIT_LC_CURRENCY"/>
+    </attribute>
+    <attribute id="0DEBIT_DC_CURRENCY" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0DEBIT_DC_CURRENCY"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0DEBIT_DC_CURRENCY"/>
+    </attribute>
+    <attribute id="0DEBIT_LC_CURRENCY" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0DEBIT_LC_CURRENCY"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0DEBIT_LC_CURRENCY"/>
+    </attribute>
+    <attribute id="0DEB_CRE_DC_CURRENCY" order="33" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0DEB_CRE_DC_CURRENCY"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0DEB_CRE_DC_CURRENCY"/>
+    </attribute>
+    <attribute id="0DEB_CRE_LC_CURRENCY" order="35" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0DEB_CRE_LC_CURRENCY"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0DEB_CRE_LC_CURRENCY"/>
+    </attribute>
+    <attribute id="0DOC_CURRCY" order="36" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Document Currency"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0DOC_CURRCY"/>
+    </attribute>
+    <attribute id="0DOC_CURRCY___T" order="37" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0DOC_CURRCY___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0DOC_CURRCY___T"/>
+    </attribute>
+    <attribute id="0FISCPER" order="38" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Fiscal year / period"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0FISCPER"/>
+    </attribute>
+    <attribute id="0FISCPER3" order="39" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Posting period"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0FISCPER3"/>
+    </attribute>
+    <attribute id="0FISCVARNT" order="40" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Fiscal year variant"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0FISCVARNT"/>
+    </attribute>
+    <attribute id="0FISCYEAR" order="41" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Fiscal year"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0FISCYEAR"/>
+    </attribute>
+    <attribute id="0FI_DOCSTAT" order="42" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Item Status"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0FI_DOCSTAT"/>
+    </attribute>
+    <attribute id="0FI_DOCSTAT___T" order="43" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0FI_DOCSTAT___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0FI_DOCSTAT___T"/>
+    </attribute>
+    <attribute id="0FUNC_AREA" order="44" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Functional area"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0FUNC_AREA"/>
+    </attribute>
+    <attribute id="0FUNC_AREA___T" order="45" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0FUNC_AREA___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0FUNC_AREA___T"/>
+    </attribute>
+    <attribute id="0GL_ACCOUNT" order="46" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="G/L Account"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0GL_ACCOUNT"/>
+    </attribute>
+    <attribute id="0GL_ACCOUNT___T" order="47" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0GL_ACCOUNT___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0GL_ACCOUNT___T"/>
+    </attribute>
+    <attribute id="0ITEM_NUM" order="48" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Number of line item within accounting document"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0ITEM_NUM"/>
+    </attribute>
+    <attribute id="0LOC_CURRCY" order="49" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Local Currency"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0LOC_CURRCY"/>
+    </attribute>
+    <attribute id="0LOC_CURRCY___T" order="50" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0LOC_CURRCY___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0LOC_CURRCY___T"/>
+    </attribute>
+    <attribute id="0POST_KEY" order="51" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Posting key"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0POST_KEY"/>
+    </attribute>
+    <attribute id="0PROFIT_CTR" order="52" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Profit Center"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0PROFIT_CTR"/>
+    </attribute>
+    <attribute id="0PROFIT_CTR___T" order="53" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0PROFIT_CTR___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0PROFIT_CTR___T"/>
+    </attribute>
+    <attribute id="0PSTNG_DATE" order="54" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Posting Date in the Document"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0PSTNG_DATE"/>
+    </attribute>
+    <attribute id="0REF_DOC_NO" order="55" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Reference document number"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0REF_DOC_NO"/>
+    </attribute>
+    <attribute id="0REQTSN" order="56" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Request Transaction Sequence Number"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0REQTSN"/>
+    </attribute>
+    <attribute id="0SEGMENT" order="57" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Segment for Segmental Reporting"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0SEGMENT"/>
+    </attribute>
+    <attribute id="0SEGMENT___T" order="58" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0SEGMENT___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0SEGMENT___T"/>
+    </attribute>
+    <attribute id="0SP_GL_IND" order="59" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Special G/L Indicator"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0SP_GL_IND"/>
+    </attribute>
+    <attribute id="0SP_GL_IND___T" order="60" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0SP_GL_IND___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0SP_GL_IND___T"/>
+    </attribute>
+    <attribute id="0VERSION" order="61" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Version"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0VERSION"/>
+    </attribute>
+    <attribute id="0VERSION___T" order="62" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="0VERSION___T"/>
+      <keyMapping columnObjectName="S_ZTSTPDS01" columnName="0VERSION___T"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures>
+    <measure id="0CREDIT_DC" order="24" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="Credit amount in foreign currency"/>
+      <measureMapping columnObjectName="S_ZTSTPDS01" columnName="0CREDIT_DC"/>
+    </measure>
+    <measure id="0CREDIT_LC" order="26" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="Credit amount in local currency"/>
+      <measureMapping columnObjectName="S_ZTSTPDS01" columnName="0CREDIT_LC"/>
+    </measure>
+    <measure id="0DEBIT_DC" order="28" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="Debit amount in foreign currency"/>
+      <measureMapping columnObjectName="S_ZTSTPDS01" columnName="0DEBIT_DC"/>
+    </measure>
+    <measure id="0DEBIT_LC" order="30" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="Debit amount in local currency"/>
+      <measureMapping columnObjectName="S_ZTSTPDS01" columnName="0DEBIT_LC"/>
+    </measure>
+    <measure id="0DEB_CRE_DC" order="32" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="Foreign currency amount with signs (+/-)"/>
+      <measureMapping columnObjectName="S_ZTSTPDS01" columnName="0DEB_CRE_DC"/>
+    </measure>
+    <measure id="0DEB_CRE_LC" order="34" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="Amount in Local Currency with +/- Signs"/>
+      <measureMapping columnObjectName="S_ZTSTPDS01" columnName="0DEB_CRE_LC"/>
+    </measure>
+    <measure id="1ROWCOUNT" order="63" aggregationType="sum" measureType="simple">
+      <descriptions defaultDescription="Number of Records"/>
+      <measureMapping columnObjectName="S_ZTSTPDS01" columnName="1ROWCOUNT"/>
+    </measure>
+  </baseMeasures>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+  <localDimensions/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  
+    <shape expanded="true" modelObjectName="S_ZTSTPDS01" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="95" y="217"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
